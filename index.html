@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Konakati Nithish Reddy</title>
+        <link rel="stylesheet" href="CSS1\Styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Merriweather&family=Montserrat&family=Pacifico&family=Sacramento&family=Poppins+Condensed:wght@200;300;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="cartoon-boy.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Merriweather&family=Montserrat&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Added inline styles to move image upward -->
+        <style>
+          .top-container {
+            padding-bottom: 120px !important; /* Add space for the image to overlap */
+          }
+          
+          .profile {
+            padding-top: 0 !important;
+          }
+          
+          .Profile-picture {
+            margin-top: -120px !important; /* This is the key change to move the image up */
+            position: relative !important;
+            z-index: 10 !important; /* Ensure it appears above other elements */
+          }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+          <div class="nav-container">
+              <div class="nav-left">
+                  <a href="#" class="nav-btn portfolio-btn">Home</a>
+              </div>
+              <div class="nav-right">
+                  <a href="#about" class="nav-btn">About</a>
+                  <a href="#professional" class="nav-btn">Experience</a>
+                  <a href="#projects" class="nav-btn">Projects</a>
+                  <a href="#contact" class="nav-btn">Contact</a>
+              </div>
+          </div>
+        </nav>
+       <div class="top-container">
+          <h1>Hello!</h1>
+          <h1>I'm Nithish Reddy</h1>
+       </div>
+       <div class="middle-container">
+        <div class="profile">
+          <img class="Profile-picture" src="Images_new/Nithish_profile_picture1.png" alt="Profile picture">
+          <div class="profile-text">
+              <p class="intro">
+                "I approach every challenge with empathy, honesty, and data-driven decision making while maintaining a pragmatic view of reality. I commit to delivering quality work on time with complete transparency to colleagues and clients. I embrace technological innovation while maintaining a clear view of human value in the process, balancing advancement with thoughtful consideration rather than simply following trends. My passion for solving critical problems drives me forward, and I define success as finding peace in my actions rather than external validation. I embrace challenges as opportunities to grow, constantly seeking new knowledge and skills that expand my capabilities, as I believe that adaptability and continuous learning are essential for long-term success in our rapidly evolving technological landscape."
+             
+              </p>
+              
+          </div>
+        </div>
+      
+        <hr>
+        
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+      <div class="about-content">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-text">
+              <p class="about-intro">
+                  I'm a data scientist and AI specialist with 4+ years of experience transforming complex challenges into actionable intelligence. Currently pursuing my Master's in Computer Science at Texas Tech University, I bridge the gap between raw data and strategic decision-making that drives measurable results.
+              </p>
+              
+              <p class="about-details">
+                  My expertise spans Data Science, Machine Learning, and Generative AI, with a focus on designing scalable solutions that create quantifiable business value. From building recommendation systems to integrating AI-powered automation, I've worked across diverse projects that leverage data to drive innovation.
+              </p>
+              
+              <p class="about-passion">
+                  I'm passionate about uncovering hidden patterns in data and transforming them into strategic insights. My unique approach combines technical precision with business acumen, ensuring that data not only informs but catalyzes innovation and growth.
+              </p>
+              
+              <div class="cta-container">
+                  <a href="#contact" class="btn-about btn-primary">Let's Connect</a>
+                  <a href="Resume_V2.1.pdf" download class="btn-about btn-secondary">Download CV</a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </section>
+
+        <hr>
+<!-- Professional Section -->
+          <section id="professional" class="professional-section">
+            <div class="about-container">
+            <div class="about-content">
+                <h2 class="section-title">Professional Background</h2>
+          
+          <div class="expertise-container">
+              <!-- Updated tab buttons -->
+<div class="tab-buttons">
+    <button class="tab-btn active" data-tab="experience">Experience</button>
+    <button class="tab-btn " data-tab="education">Education</button>
+    <button class="tab-btn" data-tab="skills">Skills</button>
+</div>
+
+<!-- Updated tab content -->
+    
+    <!-- Experience tab - now second -->
+    <div class="tab-pane active" id="experience">
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Graduate Assistant-Research Analyst</h3>
+                    <p class="timeline-period">Texas Tech University | Jan 2024 - Present | Texas</p>
+                    <ul class="timeline-description">
+                        <li>Defined and executed machine learning experiments on student datasets to uncover predictive trends in academic performance and retention.</li>
+                        <li>Built, validated, and tuned models (MLP, DistilRoBERTa) for classification and NLP tasks, ensuring robust pipeline integration for large-scale data processing.</li>
+                        <li>Engineered end-to-end data workflows for ingesting, transforming, and analyzing structured and unstructured academic data.</li>
+                        <li>Collaborated with academic departments to translate complex model outcomes into actionable recommendations for educational strategies.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Data Science-Intern</h3>
+                    <p class="timeline-period">Bristish Airways(Forage-Virtual Internship) | Dec 2024 - Jan 2025 | USA</p>
+                    <ul class="timeline-description">
+                        <li>Designed and implemented a machine learning pipeline to predict flight booking completions using a dataset of 50,000+ reservations.</li>
+                        <li>Performed feature engineering on 24 attributes, addressed class imbalance with SMOTE, and optimized model performance using Grid Search CV on a Random Forest Classifier.</li>
+                        <li>Evaluated model accuracy with stratified cross-validation and ROC-AUC, ensuring generalizability and robustness.</li>
+                        <li>Conducted feature importance analysis using Seaborn, delivering insights on customer behavior that supported marketing and operations strategies for British Airways.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Data Scientist</h3>
+                    <p class="timeline-period">Switch Mobility | Jan 2021 - Jun 2023 | India</p>
+                    <ul class="timeline-description">
+                        <li>Designed and deployed machine learning models (autoencoders, XGBoost) to optimize EV performance, detect anomalies, and classify driver behavior.</li>
+                        <li>Developed reusable Python libraries for large-scale sensor data processing, contributing to production-ready analytics tools used across departments.</li>
+                        <li>Created dynamic dashboards and reports using Tableau and automated reporting pipelines for stakeholders in operations and R&D.</li>
+                        <li>Led cross-functional collaboration between engineering and analytics teams to define ML model objectives and measure business impact.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Data Analyst</h3>
+                    <p class="timeline-period">Ashok Leyland | May 2023 - Aug 2023 | India</p>
+                    <ul class="timeline-description">
+                        <li>Conducted advanced text analytics and topic modeling on IT service tickets to automate classification and reduce manual triaging.</li>
+                        <li>Analyzed vehicle test and product development data using statistical tools (Minitab, ANOVA, hypothesis testing) to improve product quality.</li>
+                        <li>Supported the engineering team with real-time data insights, performance metrics, and historical comparisons to inform design decisions.</li>
+                        <li>Delivered clear data-driven insights to technical and non-technical stakeholders via dashboards, statistical summaries, and presentations.</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <!-- Education tab - now first and active by default -->
+        <div class="tab-pane " id="education">
+            <div class="education-list">
+                <div class="education-item">
+                    <h3>Master of Science in Computer Science</h3>
+                    <p class="education-institution">Texas Tech University</p>
+                    <p class="education-period">Aug 2023 - May 2025</p>
+                    <p class="education-gpa"><strong>GPA:</strong> 3.91/4.0</p>
+                    <p class="education-courses"><strong>Key Coursework:</strong>  Neural Networks, Intelligent Systems, Advanced Database Management Systems, Analysis of Algorithms </p>
+                </div>
+                
+                <div class="education-item">
+                    <h3>Bachelor of Technology in Electrical Engineering</h3>
+                    <p class="education-institution">National Institute of Technology Kurukshetra</p>
+                    <p class="education-period">Aug 2015 - May 2019</p>
+                    <p class="education-gpa"><strong>GPA:</strong> 8.29/10</p>
+                    <p class="education-courses"><strong>Relevant Coursework:</strong> Computer Engineering, Advanced Programming and Software Engineering, Data Structures & Algorithms,Computer Organization and Architecture, System Analysis & Database Management, Advances in Computers</p>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Skills tab - now third -->
+    <div class="tab-pane" id="skills">
+        <div class="skills-categories">
+            <!-- Programming Languages & Visualizations -->
+            <div class="skills-category">
+                <h3>Programming Languages & Visualizations</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        </div>
+                        <p>Python</p>
+                    </div>
+                    
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        </div>
+                        <p>HTML</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                        </div>
+                        <p>CSS</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        </div>
+                        <p>JavaScript</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        </div>
+                        <p>C++</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB">
+                        </div>
+                        <p>MATLAB</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" alt="Tableau">
+                        </div>
+                        <p>Tableau</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="PowerBI">
+                        </div>
+                        <p>PowerBI</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/888/888850.png" alt="Excel">
+                        </div>
+                        <p>Excel</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                        </div>
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ML & Data Science -->
+            <div class="skills-category">
+                <h3>ML & Data Science</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/8637/8637099.png" alt="LLMs">
+                        </div>
+                        <p>LLMs</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" alt="MLflow">
+                        </div>
+                        <p>MLflow</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg" alt="Transformers">
+                        </div>
+                        <p>Transformers</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2103/2103658.png" alt="Neural Networks">
+                        </div>
+                        <p>Neural Networks</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="Deep Learning">
+                        </div>
+                        <p>Deep Learning</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/8637/8637099.png" alt="NLP">
+                        </div>
+                        <p>NLP</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images_new\Statistics_Icon_New.jpg" alt="Statistics">
+                        </div>
+                        <p>Statistics</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="Big Data">
+                        </div>
+                        <p>Big Data</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" alt="A/B Testing">
+                        </div>
+                        <p>A/B Testing</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Python Libraries & Version Control -->
+            <div class="skills-category">
+                <h3>Python Libraries & Version Control</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+                        </div>
+                        <p>NumPy</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                        </div>
+                        <p>Pandas</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6295/6295409.png" alt="Matplotlib">
+                        </div>
+                        <p>Matplotlib</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images_new\seaborn-icon.svg" alt="Seaborn">
+                        </div>
+                        <p>Seaborn</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images_new\Plotly_Icon.jpg" alt="Plotly">
+                        </div>
+                        <p>Plotly</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn">
+                        </div>
+                        <p>Scikit-learn</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                        </div>
+                        <p>TensorFlow</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras">
+                        </div>
+                        <p>Keras</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch">
+                        </div>
+                        <p>PyTorch</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+                        </div>
+                        <p>GitHub</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Database & Frameworks -->
+            <div class="skills-category">
+                <h3>Database & Frameworks</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MySQL">
+                        </div>
+                        <p>MySQL</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                        </div>
+                        <p>PostgreSQL</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                        </div>
+                        <p>MongoDB</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="Hadoop">
+                        </div>
+                        <p>Hadoop</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="Spark">
+                        </div>
+                        <p>Spark</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://python.langchain.com/img/parrot-icon.png" alt="LangChain">
+                        </div>
+                        <p>LangChain</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="Fast API">
+                        </div>
+                        <p>Fast API</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Flask">
+                        </div>
+                        <p>Flask</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2694/2694994.png" alt="SDLC">
+                        </div>
+                        <p>SDLC</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images_new\Kafka Icon.jpg" alt="Kafka">
+                        </div>
+                        <p>Kafka</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cloud Technologies -->
+            <div class="skills-category">
+                <h3>Cloud Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP">
+                        </div>
+                        <p>GCP</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images_new\AWS ICon.jpg" alt="AWS">
+                        </div>
+                        <p>AWS</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+                        </div>
+                        <p>Azure</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                        </div>
+                        <p>Docker</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                        </div>
+                        <p>Kubernetes</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2368/2368947.png" alt="CI/CD">
+                        </div>
+                        <p>CI/CD</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                        </div>
+                        <p>Git</p>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="Airflow">
+                        </div>
+                        <p>Airflow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="projects-container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Images_new\Chat bot_image.png" alt="RAG chat bot">
+                    <div class="project-overlay">
+                        <h3>NetSentinel: LLM-Powered Security Q&A Bot</h3>
+                        <p>Built a secure and intelligent Q&A chatbot designed to assist users with network security-related queries. Leveraging a Retrieval-Augmented Generation (RAG) approach, the bot processes user questions using natural language processing (NLP) and retrieves relevant answers from uploaded PDF resources. The system uses ChromaDB for vector storage, Hugging Face embeddings for semantic understanding, and the Groq API to generate accurate, context-aware responses. A clean web interface built with Flask, HTML, CSS, and JavaScript enables real-time interactions. The chatbot includes features like source traceability, time-stamped messages, and dynamic user feedback, ensuring transparency and an intuitive user experience.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/NithishAjju/Q-A-Bot_Network-Security" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Images_new\GAN_image.png" alt="Data Augmentation with GAN">
+                    <div class="project-overlay">
+                        <h3>Covid 19 Data Augmentation using GAN's</h3>
+                        <p>Built a Generative Adversarial Network (GAN) using PyTorch to generate high-quality synthetic COVID-19 images, with CUDA support for fast, GPU-accelerated training and Torchvision for streamlined image preprocessing. By fine-tuning hyperparameters, I improved the model’s Intersection over Union (IoU) by 15%, significantly enhancing image segmentation accuracy. The generator and discriminator were carefully designed using deep convolutional layers and batch normalization, resulting in stable training and more realistic image outputs.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/NithishAjju/Covid_19-Data-Augmentation-using-GAN-Model" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Images_new\YTtranscriber.png" alt="Transcript summarizer">
+                    <div class="project-overlay">
+                        <h3>YouTube Transcript Summarizer</h3>
+                        <p>Designed and deployed a Streamlit-based web application that transforms YouTube video transcripts into detailed, context-aware summaries using a fine-tuned LLaMA-2 7B Large Language Model. Leveraging LoRA (Low-Rank Adaptation) for efficient fine-tuning and prompt engineering techniques, the model achieved a 10% improvement in BERT Score, enhancing summarization quality. The app supports customizable summary lengths (50–500 words) and multilingual output, making it a versatile tool for education, research, and content analysis. Built with Python, Streamlit, and the YouTube Transcript API, the project also integrates secure environment management via dotenv.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/NithishAjju/Youtube-Transcript-Summarizer" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Images_new\Flight Booking Prediction.jpg" alt="Booking Prediction model">
+                    <div class="project-overlay">
+                        <h3>Predictive Modeling for Flight Booking Forecasting </h3>
+                        <p>Built an end-to-end machine learning solution to predict customer booking completions for British Airways using a dataset of 50,000 flight reservations. Engineered 24 insightful features capturing customer behavior, handled class imbalance with SMOTE, and fine-tuned a Random Forest model to hit 90% accuracy. Through visual feature analysis with Seaborn and metrics like ROC-AUC and confusion matrices, I uncovered key booking patterns—like the impact of purchase lead time and trip type. The final model offered actionable insights to help British Airways optimize marketing strategies and operational planning.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/NithishAjju/British-Airlines-customer-booking-analysis" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Images_new\Phishing Detection System.png" alt="Phishing Detection System">
+                    <div class="project-overlay">
+                        <h3>PhishShield-Scalable ML-Based Phishing Detection</h3>
+                        <p>PhishShield is a scalable machine learning-based phishing detection system designed to identify malicious websites with 96% accuracy. Built using Python and Scikit-learn, the project features a complete ML pipeline including data preprocessing, model training, validation, and deployment. It leverages AWS S3 for storage and EC2 for compute, with MLflow integrated for experiment tracking and model versioning. The pipeline is containerized using Docker to ensure portability across environments, and GitHub Actions automate CI/CD workflows for seamless model updates. This project showcases my ability to develop secure, production-ready ML solutions with strong MLOps integration.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/NithishAjju/PhishShield" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="view-more-projects">
+            <a href="https://github.com/NithishAjju" target="_blank" class="btn btn-primary">View More Projects</a>
+        </div>
+    </div>
+    
+</section>
+<hr>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <h2 class="section-title">Let's Connect</h2>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <p class="contact-text">
+                    I'm always open to discussing new projects, opportunities in data science, or potential collaborations. 
+                    Whether you have a question or just want to say hi, feel free to reach out!
+                </p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-item-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="http://www.linkedin.com/in/konakatinithishreddy" target="_blank">Konakati Nithish Reddy</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-item-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:nithishreddy.konakati@gmail.com">nithishreddy.konakati@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-item-details">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/NithishAjju" target="_blank">KonakatiNithishReddy</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-contact">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="bottom-container">
+    <p class="rights">©Konakati Nithish Reddy. All rights reserved</p>
+  </div>
+        
+      
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script>
+        (function(){
+            emailjs.init("FEkhev7FXAnD9D51k"); // Replace with actual key
+        })();
+      </script>
+      <script src="About.js"></script>
+    </body>
+</html>
