@@ -7,25 +7,6 @@ I'm a Data Scientist and Research Analyst currently pursuing my Master’s in Co
 
 ---
 
-## 🧠 Featured Projects
-
-- **PhishShield** – ML-powered phishing detection pipeline with 96% accuracy, deployed using Docker, MLflow, and AWS.
-- **COVID-19 GAN Augmentation** – Built a PyTorch GAN model for synthetic COVID-19 image generation using CUDA.
-- **Q&A Network Security Bot** – RAG-based AI assistant using LangChain and LLaMA 3.2B for secure local document Q&A.
-- **YouTube Transcript Summarizer** – Streamlit app summarizing transcripts using fine-tuned LLaMA-2 7B and LoRA.
-
-Explore all projects on the [Projects](https://your-portfolio-site.com#projects) section of the website.
-
----
-
-## ⚙️ Tech Stack
-
-- **Languages**: Python, SQL, JavaScript, HTML/CSS, C++
-- **ML Frameworks**: PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers, MLflow
-- **Cloud & DevOps**: AWS, GCP, Docker, Kubernetes, GitHub Actions, CI/CD, Airflow
-- **Tools**: Tableau, Power BI, Streamlit, Flask, LangChain, Kafka
-
----
 
 ## 🌐 Website Access
 
